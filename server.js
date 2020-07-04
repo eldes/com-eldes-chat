@@ -6,7 +6,7 @@ mongoose = require('mongoose'),
 Message = require('./api/models/msg-model'),
 bodyParser = require('body-parser');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/msgdb');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/HelloMongoose');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 var routes = require('./api/routes/msg-routes');
