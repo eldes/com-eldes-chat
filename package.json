@@ -1,12 +1,12 @@
 {
-		"name": "api-http-rest",
+		"name": "com-eldes-chat",
 		"version": "1.0.0",
-		"description": "Exemplo prático do artigo: \"API HTTP+REST – Conceito e exemplo em Node.js\"",
+		"description": "Servidor simples de troca de mensagens, para ser usado no ensino de desenvolvimento web e mobile.",
 		"main": "server.js",
 		"scripts": {
 				"test": "echo \"Error: no test specified\" && exit 1"
 		},
-		"author": "Anderson Irias",
+		"author": "Eldes de Paula Oliveira",
 		"license": "ISC",
 		"dependencies": {
 				"body-parser": "^1.18.3",
